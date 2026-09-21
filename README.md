@@ -1,15 +1,70 @@
-# Amagadon
+# AMAGADON
 
 ## AI Marketing Assistant
+
+**AI Fluency Project | Track B: Marketing**
 
 Amagadon is a specialised AI Marketing Assistant developed by
 Thandoluhle Hlatshwayo as part of the AI Fluency Project.
 
-The assistant was designed for Track B: Marketing.
+Amagadon transforms marketing topics, blog briefs, articles and campaign
+briefs into three platform-specific social media post variations for
+LinkedIn or Instagram.
 
-## Primary Use Case
+The assistant combines marketing guidance, platform rules, factual
+controls, responsible AI guardrails and human review in a repeatable
+content-generation workflow.
 
-Amagadon transforms:
+---
+
+## Project Status
+
+**Version:** Amagadon v1.4  
+**Status:** Pilot Deployment Ready  
+**Platform:** Claude.ai Projects  
+**Owner:** Thandoluhle Hlatshwayo  
+**Track:** Track B: Marketing  
+**Initial tests completed:** 10  
+**Regression tests completed:** 2  
+**Critical failures remaining:** 0  
+
+Amagadon has been:
+
+- designed
+- configured
+- tested
+- evaluated
+- refined
+- regression-tested
+- documented
+
+The current version is ready for controlled pilot testing.
+
+Amagadon has not yet been deployed organisation-wide.
+
+---
+
+# Track B Requirement
+
+The AI Fluency Marketing Track focuses on:
+
+> Turning a blog brief into first-draft social media content.
+
+The solution should consider:
+
+- brand voice
+- character limits
+- platform differences
+- LinkedIn versus Instagram
+- three social media post variations
+
+Amagadon was designed specifically around this use case.
+
+---
+
+# Primary Use Case
+
+Amagadon can transform:
 
 - marketing topics
 - blog briefs
@@ -17,141 +72,39 @@ Amagadon transforms:
 - campaign briefs
 - approved organisational information
 
-into three platform-specific social media post variations for LinkedIn or
-Instagram.
+into three social media variations:
 
-The default variations are:
+### 1. Authority and Insight
 
-1. Authority and Insight
-2. Human and Conversational
-3. Concise and Action-Oriented
+Professional, credible and insight-led.
 
-## Core Capabilities
+### 2. Human and Conversational
 
-Amagadon applies:
+Approachable, relatable and engagement-focused.
 
-- a defined brand voice
-- LinkedIn and Instagram platform rules
-- character limits
-- audience and objective analysis
-- factual-accuracy controls
+### 3. Concise and Action-Oriented
+
+Direct, focused and designed around a clear next step.
+
+Amagadon also recommends the option that best matches the target audience,
+marketing objective, platform and configured brand voice.
+
+---
+
+# Core Capabilities
+
+Amagadon supports:
+
+- LinkedIn content generation
+- Instagram content generation
+- blog-to-social transformation
+- audience-aware marketing
+- character-limit control
+- CTA generation
+- platform adaptation
+- brand voice consistency
+- three distinct creative approaches
+- fact-check and verification notes
 - unsupported-claim detection
-- testimonial and social-proof safeguards
-- responsible AI principles
-- human marketing review
-
-## Project Architecture
-
-Amagadon uses two configuration layers inside Claude.ai Projects:
-
-### Project Instructions
-
-The Project Instructions define the assistant's core workflow, including:
-
-- when to generate content
-- when to ask clarification questions
-- how to create three distinct variations
-- how to handle unsupported claims
-- how to avoid unsupported generalisations
-- how to structure the final output
-
-### Project Context
-
-The Project Context contains five resources:
-
-1. Brand Voice Guide
-2. Social Media Guidelines
-3. Marketing Knowledge and Facts
-4. Approved Social Post Examples
-5. AI Marketing Guardrails
-
-## Testing
-
-Amagadon was evaluated using:
-
-- 10 initial test scenarios
-- 2 targeted regression tests
-
-The scenarios covered:
-
-- standard LinkedIn content
-- Instagram adaptation
-- strict character limits
-- missing information
-- unsupported statistics
-- fabricated testimonials
-- vague briefs
-- brand voice conflicts
-- blog-to-social conversion
-- simulated real-user usage
-
-## Improvements
-
-Testing identified two important weaknesses:
-
-1. Unsupported broad generalisations
-2. Strategic over-assumption when briefs were extremely vague
-
-The Project Instructions were updated to address both weaknesses.
-
-Both changes passed targeted regression testing.
-
-## Current Status
-
-- Final evaluated version: Amagadon v1.4
-- Initial tests completed: 10
-- Regression tests completed: 2
-- Critical failures remaining: 0
-- Status: Pilot Deployment Ready
-- Human marketing review: Required before publication
-
-## Deployment Status
-
-Amagadon currently operates as a tested Claude.ai Projects prototype.
-
-The assistant has not yet been deployed organisation-wide.
-
-The recommended next phase is a controlled pilot with real marketing or
-communications users, followed by user acceptance testing and measurement
-of:
-
-- time saved
-- editing required
-- user satisfaction
-- factual accuracy
-- brand alignment
-- content usefulness
-
-## Responsible AI
-
-Amagadon is a drafting assistant.
-
-It does not independently approve or publish marketing content.
-
-AI-generated material must be reviewed by an authorised human before
-publication.
-
-Amagadon is designed to avoid fabricating:
-
-- statistics
-- testimonials
-- customer identities
-- customer outcomes
-- product capabilities
-- awards
-- partnerships
-- prices
-- URLs
-- performance claims
-
-## Owner
-
-Thandoluhle Hlatshwayo
-
-## Programme
-
-AI Fluency Project
-
-## Track
-
-Track B: Marketing
+- testimonial safeguards
+- unsupported
